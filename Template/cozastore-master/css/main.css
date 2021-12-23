@@ -161,7 +161,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   height: 38px;
   bottom: 0px;
   right: 40px;
-  background-color: #228649 ;
+  background-color: #28b35d;
   opacity: 0.5;
   justify-content: center;
   align-items: center;
@@ -181,7 +181,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 .btn-back-to-top:hover {
   opacity: 1;
-  background-color: #228649 ;
+  background-color: #28b35d;
 }
 
 @media (max-width: 575px) {
@@ -231,7 +231,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 /*---------------------------------------------*/
 .left-top-bar {
   font-family: Poppins-Regular;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.8;
   color: #ffffff;
 }
@@ -240,7 +240,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 /*---------------------------------------------*/
 .right-top-bar a {
   font-family: Poppins-Regular;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.8;
 
   height: 100%;
@@ -260,7 +260,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 /*---------------------------------------------*/
 .topbar-mobile li {
   padding: 8px 20px;
-  border-top: 1px solid rgba(255,255,255,0.05);
+  border-top: 5px solid rgba(172, 24, 172, 0.05);
   background-color: #b16ce0;
 }
 
@@ -272,7 +272,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 .wrap-menu-desktop {
   position: fixed;
   z-index: 1100;
-  background-color: transparent;
+  background-color: #b16ce08e;
   width: 100%;
   height: 84px;
   top: 40px;
@@ -292,7 +292,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 .header-v3 .wrap-menu-desktop {
   background-color: transparent;
   top: 0;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.671);
 }
 
 .header-v4 .wrap-menu-desktop {
@@ -368,8 +368,8 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 .main-menu > li > a {
   font-family: Poppins-Medium;
-  font-size: 14px;
-  color: #333;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
   padding: 5px 0px;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
@@ -378,7 +378,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 .header-v3 .main-menu > li > a {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 /*---------------------------------------------*/
@@ -389,7 +389,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   left:100%;
   min-width: 178px;
   max-width: 225px;
-  background-color: #fff;
+  background-color: #ffffff;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -440,7 +440,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 /*---------------------------------------------*/
 .main-menu > li:hover > a {
   text-decoration: none;
-  color: #19703a ;
+  color: #0ee962;
 }
 
 .main-menu > li:hover > .sub-menu {
@@ -458,7 +458,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 .sub-menu > li:hover > a {
-  color: #19703a;
+  color: #0ee962;
   text-decoration: none;
 }
 
@@ -505,7 +505,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   min-width: 15px;
   height: 15px;
   padding: 0 3px;
-  background-color: #b16ce0;
+  background-color: #28b35d;
 }
 
 /*---------------------------------------------*/
@@ -523,7 +523,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   height: 100%;
   bottom: 101%;
   left: 0;
-  background-color:rgba(41, 250, 121, 0.2);
+  background-color:rgba(233, 68, 219, 0.2);
   padding: 50px 15px 100px 15px;
 }
 
@@ -563,7 +563,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   font-family: Poppins-ExtraLight;
   font-size: 50px;
   line-height: 1.2;
-  color: #333;
+  color: rgb(0, 0, 0);
   
   padding: 0px 30px 0px 0px;
   width: calc(100% - 70px);
@@ -573,13 +573,13 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 .wrap-search-header button {
   font-size: 50px;
-  color: #333;
+  color: rgb(0, 0, 0);
   width: 70px;
   height: 100%;
 }
 
 .wrap-search-header button:hover {
-  color: #19703a;
+  color: #28b35d;
 }
 
 /*---------------------------------------------*/
@@ -818,7 +818,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   height: 100vh;
   top: 0;
   right: 0;
-  background-color: rgba(7, 121, 77, 0);
+  background-color: rgba(133, 1, 160, 0);
   visibility: hidden;
   
   -webkit-transition: all 0.4s;
@@ -1288,7 +1288,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 /*---------------------------------------------*/
 .rs2-slick1 .arrow-slick1 {
-  color:rgba(41, 250, 121, 0.2);
+  color:rgba(233, 68, 219, 0.2);
 }
 
 .rs2-slick1 .arrow-slick1:hover {
@@ -1986,7 +1986,7 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 .block1-txt {
-  background-color:rgba(41, 250, 121, 0.2);
+  background-color:rgba(233, 68, 219, 0.2);
 }
 
 /*---------------------------------------------*/
@@ -2112,7 +2112,7 @@ input.num-product::-webkit-inner-spin-button {
   height: 22px;
   border-radius: 11px;
   padding: 0 6px;
-  background-color: #66a8a6;
+  background-color: #000000;
   top: 42px;
   left: 12px;
 }
@@ -2180,6 +2180,7 @@ input.num-product::-webkit-inner-spin-button {
   font-family: Poppins-Regular;
   font-size: 13px;
   line-height: 1.923;
+  color:#000
 }
 
 .stext-108 {
@@ -2247,7 +2248,7 @@ input.num-product::-webkit-inner-spin-button {
 /*---------------------------------------------*/
 .stext-301 {
   font-family: Montserrat-Bold;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.6;
   text-transform: uppercase;
 }
@@ -2799,7 +2800,7 @@ input.num-product::-webkit-inner-spin-button {
 
 /*---------------------------------------------*/
 .js-addedwish-detail {
-  color: #228649;
+  color: #27d168;
 }
 
 /*---------------------------------------------*/
