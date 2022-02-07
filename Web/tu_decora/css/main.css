@@ -209,7 +209,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 .header-v2 .container-menu-desktop {
-  height: 84px;
+  height: 100px;
 }
 
 .header-v3 .container-menu-desktop {
@@ -490,7 +490,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 
 /*---------------------------------------------*/
-.icon-header-noti::after {
+/*.icon-header-noti::after {
   content: attr(data-notify);
   font-family: Poppins-Regular;
   font-size: 12px;
@@ -506,7 +506,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   height: 15px;
   padding: 0 3px;
   background-color: #28b35d;
-}
+}*/ /*color de la notificacion del carrito de compra*/
 
 /*---------------------------------------------*/
 .wrap-header-mobile .wrap-icon-header {
@@ -2159,7 +2159,7 @@ input.num-product::-webkit-inner-spin-button {
 
 .stext-104 {
   font-family: Poppins-Regular;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.466667;
 }
 
